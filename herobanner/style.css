@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    height: 90vh;
+    background-color: aquamarine;
+    position: relative;
+
+}
+
+.main-container p {
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    right: 25%;
+}
+
+.logos {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
+
+.logos i {
+    font-size: 2em;
+    margin: 0 .5em;
+}
