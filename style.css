@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Raleway, sans-serif;
+
+}
+
+header {
+    display: flex;
+    direction: row;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    align-content: center;
+    height: 20vh;
+    font-weight: 600;
+}
+
+header img {
+    width: 20vw;
+    height: 2.5vw;
+    align-self: center;
+    margin-right: 10vw;
+}
+
+
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    align-self: center;
+    margin: 0 1em;
+    font-size: 1vw;
+
+}
+
+
+
+nav {
+    align-self: center;
+    /* border: 2px solid red; */
+    overflow: hidden;
+}
+
+nav a:hover {
+    color: #A1C854;
+    cursor: context-menu;
+}
+
+.subnav {
+    display: inline-block;
+    /* border: 2px solid red; */
+    height: 3vw;
+    vertical-align: auto;
+
+}
+
+.subnav-content {
+    display: none;
+    position: sticky;
+    float: left;
+    top: 0;
+    z-index: 0;
+
+}
+
+.subnav:hover .subnav-content,
+.subnav-content:hover .subnav-content {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    margin-left: 0;
+    width: 15%;
+    font-weight: 300;
+    padding-left: 20px;
+    margin-top: 2em;
+    top: 10vh;
+
+}
+
+.subnav-content a {
+    background-color: #393434;
+    width: 100%;
+    border-bottom: 1px solid #D7D6D6;
+    text-align: left;
+    color: #D7D6D6;
+    height: 2vh;
+    padding: 20px;
+
+
+}
+
+
+.empty-subnav {
+    visibility: hidden;
+    background-color: white;
+    /* border: 2px solid red; */
+    /* padding-top: -10vh; */
+}
+
+.empty-subnav a {
+    visibility: hidden;
+    background-color: rgb(49, 30, 30);
+    /* border: 2px solid red; */
+}
+
+main {
+    display: flex;
+    direction: row;
+    margin-top: 1em;
+    width: 100%;
+
+}
+
+
+.getintouch {
+    width: 8.5vw;
+    height: 3vw;
+    align-self: center;
+    background-color: #A1C854;
+    border-radius: 4%;
+    border: 0;
+    font-size: 1vw;
+
+}
+
+.getintouch:hover {
+    background-color: #393434;
+    color: #A1C854;
+}
+
+.left-side {
+    width: 50%;
+    background-color: #393434;
+    color: white;
+    padding-left: 5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+}
+
+.right-side {
+    background-image: url(imgs/fig_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+
+.para-2-left-main {
+    font-size: 1.8em;
+    font-weight: 200;
+    padding-right: 10vw;
+    text-align: left;
+}
+
+
+
+
+
+.rows-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 3em 0;
+    /* border: 2px solid red; */
+    width: 35vw;
+}
+
+
+.report-logo:hover,
+svg:hover {
+    background-color: pink;
+    fill: #A1C854;
+    stroke: #A1C854;
+
+}
+
+
+
+svg {
+    fill: white;
+    stroke: white;
+    width: 4vw;
+    height: 4vw;
+    align-items: center;
+}
+
+.rows-icon:hover svg,
+.rows-icon:hover p {
+    fill: #A1C854;
+    stroke: #A1C854;
+    /* border: 2px solid red; */
+    color: #A1C854;
+}
+
+.rows-icon:hover .arrow {
+    margin-left: 2em;
+    /* border: 2px solid red; */
+    transition-duration: .3s;
+}
+
+.rows-icon p {
+    align-self: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 0 1em;
+    text-align: left;
+}
+
+
+.text-beside-logs {
+    width: 45%;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+
+.container2 p {
+    align-self: center;
+    font-size: 2em;
+    font-weight: 500;
+    margin-left: 10%;
+    text-align: left;
+    width: 38vw;
+}
+
+.container2 p:nth-child(2) {
+    font-size: 1.5em;
+    color: #565353;
+
+
+}
+
+footer img {
+    width: 10%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10vh 10vw;
+}
